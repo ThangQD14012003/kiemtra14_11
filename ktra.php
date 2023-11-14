@@ -14,6 +14,7 @@ function generateFibonacci($n) {
     switch($n){
         case 0:
             return $fibonacciArray;
+            break;
         case 1:
             $fibonacciArray[] = 0;
             break;
